@@ -1,0 +1,34 @@
+.container-style {
+    height: 100%;
+    position: relative;
+}
+
+.description {
+    width: 600px;
+    position: absolute;
+    z-index: 999;
+    color: rgb(126, 154, 179);
+    top: 20%;
+    left: 10%;
+}
+
+.description h1 {
+    font-size: 26px;
+}
+
+.carousel-boullt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-boullt span {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(160, 145, 131);
+    margin-left: 2px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(73, 72, 72, 0.338);
+}
